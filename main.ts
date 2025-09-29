@@ -25,4 +25,18 @@ function merge(collection_1: number[], collection_2: number[], collection_3: num
     return result;
 }
 
+console.log('=== Merge Function Examples ===');
+
+const example1_collection1 = [10, 5, 1];
+const example1_collection2 = [2, 6, 8];
+const example1_collection3 = [3, 7, 9];
+const result1 = merge(example1_collection1, example1_collection2, example1_collection3);
+console.log('Example 1:', result1);
+
+const example2_collection1 = [100, 50, 10];
+const example2_collection2 = [5, 25, 75];
+const example2_collection3 = [15, 35, 85];
+const result2 = merge(example2_collection1, example2_collection2, example2_collection3);
+console.log('Example 2:', result2);
+
 export { merge };
